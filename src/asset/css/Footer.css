@@ -1,0 +1,39 @@
+#footer{
+    text-align: left;
+    padding: 3% 15%;
+}
+
+.foot-icon{
+    padding: 1% 1% 2%;
+}
+
+.icons{
+    float: right;
+    opacity: 0.9;
+}
+
+p{
+    padding-top: 7px;
+}
+
+@media screen and (min-width: 20px) and (max-width: 780px) {
+    #footer{
+        width: 20rem;
+        text-align: center;
+        padding: 3% 5%;
+        margin-left: 2rem;
+    }
+
+    .icon-class{
+        width: 12rem;
+        display: block;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    p{
+        padding-top:10px;
+        margin-top: 20px;
+    }
+
+}
